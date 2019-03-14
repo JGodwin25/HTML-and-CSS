@@ -1,0 +1,52 @@
+https://css3-tutorial.net/
+
+css
+
+Selectors
+Element p , p.red
+Descendent p b
+Child Selector div.highlighted b || div.highlighted > b ,div > b
+Sibling Selector h2 ~ p no grandchildren , h2 + p
+
+CSS Box Model
+invisible, inline or block
+Margin t r b l,t l/r b,t/b l/r,t/r/b/l.
+Borders & radius dashed,dotted,double,groove,in/outset,ridge,solid.
+Padding use em
+Outline outline: 3px solid LightCoral;//wid sty col sty same as margin
+	outline-offset
+Visibility & Display
+
+width and height min max h/w
+
+overflow visible,hidden,auto,scroll.
+position static,relative(then usr t,r,b,l to move around rel to parent),
+	 absolute(z-index),fixed
+	 --- parent rel children abs--
+Float 
+Clear	 Both,Left,Right
+Typograpy Font http://www.cssfontstack.com/ font-family
+	  Font-weight normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 			700, 800, 900, and inherit.
+	  Font-style Italic Oblique
+	  Font-size
+Adv Typo  text-align,letter-spacing,text-transform:upper/Lower capitalize case.
+Text shadow
+text-decoration line-through,und,overline
+text-indent
+text-align
+
+Text & Background color
+ http://www.cssportal.com/css3-color-names/.
+RGBA()
+background-color
+background-image
+background-repeat repeat,repeat-x,repeat-y,no-repeat
+background-position t r b l % px
+
+CSS3 Transitions
+transition-property: all;
+transition-duration: 2sec;
+transition-timing-function: ease-in;
+transition-delay: 0;
+
+transition: all 2s ease-in 0;
